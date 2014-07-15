@@ -7,3 +7,6 @@ Integrating our pieces has been very hard.  I want to learn how to control layer
 
 
 ![animated gif](http://i.imgur.com/Mkuv1vb.gif)
+
+Including Michael's gif of his piece since I didn't get it well integrated, but to show the work is there.
+![animated gif](http://i.imgur.com/60kwOzV.gif)
