@@ -7,6 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "AppFrameViewController.h"
+
+#import "MainViewController.h"
+
+#import "profilemainViewController.h"
+#import "profiletopicsViewController.h"
+#import "profilemixesViewController.h"
+#import "profilesavedViewController.h"
+
+#import "LoginViewController.h"
+
+
+
 
 @implementation AppDelegate
 
@@ -14,6 +27,43 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+//    MainViewController *mainViewController = [[MainViewController alloc]init];
+//    self.window.rootViewController = mainViewController;
+//
+
+    
+    
+//FROM CLIFF
+    
+    MainViewController *mainViewController = [[MainViewController alloc]init];
+    
+    
+    
+//FROM JOSH
+
+    profiletopicsViewController *profiletopicsVC = [[profiletopicsViewController alloc] init];
+    profilemixesViewController *profilemixesVC = [[profilemixesViewController alloc] init];
+    profilesavedViewController *profilesavedVC = [[profilesavedViewController alloc] init];
+    
+    profilemainViewController *profilemainVC = [[profilemainViewController alloc] init];
+    profilemainVC.viewControllers = @[profiletopicsVC, profilemixesVC, profilesavedVC];
+    
+//FROM MICHAEL
+    
+    LoginViewController *searchViewController = [[LoginViewController alloc]init];
+
+    
+    
+// BRING VIEWS TOGETHER...
+    
+    AppFrameViewController *appFrameViewController = [[AppFrameViewController alloc]init];
+    appFrameViewController.viewControllers = @[mainViewController, searchViewController,profilemainVC];
+    
+    
+    self.window.rootViewController = appFrameViewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

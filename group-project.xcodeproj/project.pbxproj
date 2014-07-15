@@ -19,6 +19,24 @@
 		BB72681B1974D651003E7040 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7268031974D651003E7040 /* UIKit.framework */; };
 		BB7268231974D651003E7040 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB7268211974D651003E7040 /* InfoPlist.strings */; };
 		BB7268251974D651003E7040 /* group_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7268241974D651003E7040 /* group_projectTests.m */; };
+		BB7268311974D681003E7040 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB72682F1974D681003E7040 /* MainViewController.m */; };
+		BB7268321974D681003E7040 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7268301974D681003E7040 /* MainViewController.xib */; };
+		BB7268361974E58B003E7040 /* VideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7268341974E58B003E7040 /* VideoPlayViewController.m */; };
+		BB7268371974E58B003E7040 /* VideoPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7268351974E58B003E7040 /* VideoPlayViewController.xib */; };
+		BB7268441974E960003E7040 /* profilemainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7268391974E960003E7040 /* profilemainViewController.m */; };
+		BB7268451974E960003E7040 /* profilemainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB72683A1974E960003E7040 /* profilemainViewController.xib */; };
+		BB7268461974E960003E7040 /* profiletopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB72683C1974E960003E7040 /* profiletopicsViewController.m */; };
+		BB7268471974E960003E7040 /* profiletopicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB72683D1974E960003E7040 /* profiletopicsViewController.xib */; };
+		BB7268481974E960003E7040 /* profilemixesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB72683F1974E960003E7040 /* profilemixesViewController.m */; };
+		BB7268491974E960003E7040 /* profilemixesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7268401974E960003E7040 /* profilemixesViewController.xib */; };
+		BB72684A1974E960003E7040 /* profilesavedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7268421974E960003E7040 /* profilesavedViewController.m */; };
+		BB72684B1974E960003E7040 /* profilesavedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7268431974E960003E7040 /* profilesavedViewController.xib */; };
+		BB72686A19756619003E7040 /* AppFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB72686819756619003E7040 /* AppFrameViewController.m */; };
+		BB72686B19756619003E7040 /* AppFrameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB72686919756619003E7040 /* AppFrameViewController.xib */; };
+		BB72687319757164003E7040 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB72686E19757164003E7040 /* LoginViewController.m */; };
+		BB72687419757164003E7040 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB72686F19757164003E7040 /* LoginViewController.xib */; };
+		BB72687519757164003E7040 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB72687119757164003E7040 /* homeViewController.m */; };
+		BB72687619757164003E7040 /* homeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB72687219757164003E7040 /* homeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +66,33 @@
 		BB7268201974D651003E7040 /* group-projectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "group-projectTests-Info.plist"; sourceTree = "<group>"; };
 		BB7268221974D651003E7040 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB7268241974D651003E7040 /* group_projectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = group_projectTests.m; sourceTree = "<group>"; };
+		BB72682E1974D681003E7040 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BB72682F1974D681003E7040 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BB7268301974D681003E7040 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		BB7268331974E58B003E7040 /* VideoPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoPlayViewController.h; path = "group-project/VideoPlayViewController.h"; sourceTree = "<group>"; };
+		BB7268341974E58B003E7040 /* VideoPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoPlayViewController.m; path = "group-project/VideoPlayViewController.m"; sourceTree = "<group>"; };
+		BB7268351974E58B003E7040 /* VideoPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VideoPlayViewController.xib; path = "group-project/VideoPlayViewController.xib"; sourceTree = "<group>"; };
+		BB7268381974E960003E7040 /* profilemainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profilemainViewController.h; sourceTree = "<group>"; };
+		BB7268391974E960003E7040 /* profilemainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profilemainViewController.m; sourceTree = "<group>"; };
+		BB72683A1974E960003E7040 /* profilemainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profilemainViewController.xib; sourceTree = "<group>"; };
+		BB72683B1974E960003E7040 /* profiletopicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profiletopicsViewController.h; sourceTree = "<group>"; };
+		BB72683C1974E960003E7040 /* profiletopicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profiletopicsViewController.m; sourceTree = "<group>"; };
+		BB72683D1974E960003E7040 /* profiletopicsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profiletopicsViewController.xib; sourceTree = "<group>"; };
+		BB72683E1974E960003E7040 /* profilemixesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profilemixesViewController.h; sourceTree = "<group>"; };
+		BB72683F1974E960003E7040 /* profilemixesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profilemixesViewController.m; sourceTree = "<group>"; };
+		BB7268401974E960003E7040 /* profilemixesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profilemixesViewController.xib; sourceTree = "<group>"; };
+		BB7268411974E960003E7040 /* profilesavedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profilesavedViewController.h; sourceTree = "<group>"; };
+		BB7268421974E960003E7040 /* profilesavedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profilesavedViewController.m; sourceTree = "<group>"; };
+		BB7268431974E960003E7040 /* profilesavedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profilesavedViewController.xib; sourceTree = "<group>"; };
+		BB72686719756619003E7040 /* AppFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppFrameViewController.h; path = ../AppFrameViewController.h; sourceTree = "<group>"; };
+		BB72686819756619003E7040 /* AppFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppFrameViewController.m; path = ../AppFrameViewController.m; sourceTree = "<group>"; };
+		BB72686919756619003E7040 /* AppFrameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppFrameViewController.xib; path = ../AppFrameViewController.xib; sourceTree = "<group>"; };
+		BB72686D19757164003E7040 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BB72686E19757164003E7040 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BB72686F19757164003E7040 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BB72687019757164003E7040 /* homeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
+		BB72687119757164003E7040 /* homeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
+		BB72687219757164003E7040 /* homeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +154,13 @@
 			children = (
 				BB72680E1974D651003E7040 /* AppDelegate.h */,
 				BB72680F1974D651003E7040 /* AppDelegate.m */,
+				BB72686719756619003E7040 /* AppFrameViewController.h */,
+				BB72686819756619003E7040 /* AppFrameViewController.m */,
+				BB72686919756619003E7040 /* AppFrameViewController.xib */,
 				BB7268111974D651003E7040 /* Images.xcassets */,
+				BB72686C19756638003E7040 /* cliff-brain */,
+				BB72686619756359003E7040 /* josh-profile-pages */,
+				BB7268771975716E003E7040 /* michael-search */,
 				BB7268061974D651003E7040 /* Supporting Files */,
 			);
 			path = "group-project";
@@ -142,6 +193,52 @@
 				BB7268211974D651003E7040 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB72686619756359003E7040 /* josh-profile-pages */ = {
+			isa = PBXGroup;
+			children = (
+				BB7268381974E960003E7040 /* profilemainViewController.h */,
+				BB7268391974E960003E7040 /* profilemainViewController.m */,
+				BB72683A1974E960003E7040 /* profilemainViewController.xib */,
+				BB72683B1974E960003E7040 /* profiletopicsViewController.h */,
+				BB72683C1974E960003E7040 /* profiletopicsViewController.m */,
+				BB72683D1974E960003E7040 /* profiletopicsViewController.xib */,
+				BB72683E1974E960003E7040 /* profilemixesViewController.h */,
+				BB72683F1974E960003E7040 /* profilemixesViewController.m */,
+				BB7268401974E960003E7040 /* profilemixesViewController.xib */,
+				BB7268411974E960003E7040 /* profilesavedViewController.h */,
+				BB7268421974E960003E7040 /* profilesavedViewController.m */,
+				BB7268431974E960003E7040 /* profilesavedViewController.xib */,
+			);
+			name = "josh-profile-pages";
+			sourceTree = "<group>";
+		};
+		BB72686C19756638003E7040 /* cliff-brain */ = {
+			isa = PBXGroup;
+			children = (
+				BB72682E1974D681003E7040 /* MainViewController.h */,
+				BB72682F1974D681003E7040 /* MainViewController.m */,
+				BB7268301974D681003E7040 /* MainViewController.xib */,
+				BB7268331974E58B003E7040 /* VideoPlayViewController.h */,
+				BB7268341974E58B003E7040 /* VideoPlayViewController.m */,
+				BB7268351974E58B003E7040 /* VideoPlayViewController.xib */,
+			);
+			name = "cliff-brain";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BB7268771975716E003E7040 /* michael-search */ = {
+			isa = PBXGroup;
+			children = (
+				BB72686D19757164003E7040 /* LoginViewController.h */,
+				BB72686E19757164003E7040 /* LoginViewController.m */,
+				BB72686F19757164003E7040 /* LoginViewController.xib */,
+				BB72687019757164003E7040 /* homeViewController.h */,
+				BB72687119757164003E7040 /* homeViewController.m */,
+				BB72687219757164003E7040 /* homeViewController.xib */,
+			);
+			name = "michael-search";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +316,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB72687619757164003E7040 /* homeViewController.xib in Resources */,
+				BB72687419757164003E7040 /* LoginViewController.xib in Resources */,
+				BB7268371974E58B003E7040 /* VideoPlayViewController.xib in Resources */,
 				BB72680A1974D651003E7040 /* InfoPlist.strings in Resources */,
+				BB72684B1974E960003E7040 /* profilesavedViewController.xib in Resources */,
+				BB72686B19756619003E7040 /* AppFrameViewController.xib in Resources */,
+				BB7268321974D681003E7040 /* MainViewController.xib in Resources */,
+				BB7268451974E960003E7040 /* profilemainViewController.xib in Resources */,
+				BB7268491974E960003E7040 /* profilemixesViewController.xib in Resources */,
+				BB7268471974E960003E7040 /* profiletopicsViewController.xib in Resources */,
 				BB7268121974D651003E7040 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +345,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB72687519757164003E7040 /* homeViewController.m in Sources */,
+				BB7268441974E960003E7040 /* profilemainViewController.m in Sources */,
+				BB7268361974E58B003E7040 /* VideoPlayViewController.m in Sources */,
+				BB72684A1974E960003E7040 /* profilesavedViewController.m in Sources */,
 				BB7268101974D651003E7040 /* AppDelegate.m in Sources */,
+				BB72687319757164003E7040 /* LoginViewController.m in Sources */,
+				BB7268311974D681003E7040 /* MainViewController.m in Sources */,
+				BB7268481974E960003E7040 /* profilemixesViewController.m in Sources */,
+				BB7268461974E960003E7040 /* profiletopicsViewController.m in Sources */,
 				BB72680C1974D651003E7040 /* main.m in Sources */,
+				BB72686A19756619003E7040 /* AppFrameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
