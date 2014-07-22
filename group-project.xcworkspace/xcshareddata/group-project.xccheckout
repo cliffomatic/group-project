@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD5FB8DB-19ED-431B-9BB1-0FD013E2ED32</string>
+	<key>IDESourceControlProjectName</key>
+	<string>group-project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C4196A16-3FDB-44F5-9955-1960CB59638B</key>
+		<string>https://github.com/cliffomatic/group-project.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>group-project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C4196A16-3FDB-44F5-9955-1960CB59638B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cliffomatic/group-project.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C4196A16-3FDB-44F5-9955-1960CB59638B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C4196A16-3FDB-44F5-9955-1960CB59638B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>group-project</string>
+		</dict>
+	</array>
+</dict>
+</plist>

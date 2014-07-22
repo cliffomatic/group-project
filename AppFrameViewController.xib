@@ -54,7 +54,6 @@
                             </state>
                             <connections>
                                 <action selector="onProfileBtn:" destination="-1" eventType="touchUpInside" id="VKe-Mg-473"/>
-                                <action selector="onSearchBtn:" destination="-1" eventType="touchUpInside" id="lZC-7w-Szm"/>
                             </connections>
                         </button>
                     </subviews>

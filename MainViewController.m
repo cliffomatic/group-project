@@ -40,7 +40,7 @@
     self.vidgridScrollView.contentOffset = CGPointMake(436, 122);
     self.vidgridImageView.frame = CGRectMake(0, 0, 872, 728);
     self.vidContainerView.frame = CGRectMake(0, 0, 872, 728);
-    self.image01Btn.alpha   =.1;
+    self.image01Btn.alpha   =.5;
     
 }
 
@@ -52,6 +52,7 @@
 
 - (IBAction)on01BtnClick:(id)sender {
     VideoPlayViewController *videoPlayView = [[VideoPlayViewController alloc] init];
+    videoPlayView.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
     [self presentViewController:videoPlayView animated:YES completion:nil];
     
 }
